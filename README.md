@@ -1,3 +1,4 @@
+```markdown
 # EventSync
 
 ![Next.js](https://img.shields.io/badge/-Next.js-000000?logo=next.js&logoColor=white)
@@ -6,7 +7,7 @@
 ![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?logo=firebase&logoColor=black)
 ![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=white)
 
-&gt; **Real-Time Campus Event Intelligence & Optimization Platform**
+> **Real-Time Campus Event Intelligence & Optimization Platform**
 
 EventSync is a next-generation smart campus event management platform that goes beyond traditional scheduling tools. Using real-time campus data, predictive analytics, and AI-assisted automation, it actively improves event success before, during, and after the event lifecycle.
 
@@ -46,7 +47,7 @@ Unlike existing tools that only handle event creation and registration, EventSyn
 
 **Event Listing (Card Grid)**
 - 🖼️ Event banner images with dark theme UI
-- 🏷️ Event type labels (Event / Workshop / Competition / TV Show / Movie style)
+- 🏷️ Event type labels (Event / Workshop / Competition / TV Show / Movie)
 - 🎨 Category tags (Tech, Cultural, Sports, Drama, etc.)
 - ✨ Hover effects with smooth zoom and shadow animations
 - 📱 Fully responsive grid layout
@@ -62,7 +63,7 @@ Unlike existing tools that only handle event creation and registration, EventSyn
 - Real-time editing capabilities for coordinators
 - Risk analysis integration during planning phase
 
-### 🎪 3. Volunteer Intelligence & Smart Talent Allocation
+### 👥 3. Volunteer Intelligence & Smart Talent Allocation
 
 **Smart Onboarding**
 - Role selection: Attendee, Volunteer, Organizer, Speaker, Competitor
@@ -138,15 +139,15 @@ Unlike existing tools that only handle event creation and registration, EventSyn
 
 ## 🛠️ Tech Stack
 
-| Category | Technology |
-|----------|------------|
-| **Framework** | Next.js 16 (App Router) |
-| **Frontend** | React 19, TypeScript |
-| **Styling** | Tailwind CSS, Radix UI |
-| **Backend** | Firebase (Firestore, Auth, Storage) |
-| **Analytics** | Recharts |
-| **Notifications** | Sonner |
-| **Icons** | Lucide React |
+| Category         | Technology                          |
+|------------------|-------------------------------------|
+| **Framework**    | Next.js 16 (App Router)             |
+| **Frontend**     | React 19, TypeScript                |
+| **Styling**      | Tailwind CSS, Radix UI              |
+| **Backend**      | Firebase (Firestore, Auth, Storage) |
+| **Analytics**    | Recharts                            |
+| **Notifications**| Sonner                              |
+| **Icons**        | Lucide React                        |
 
 ---
 
@@ -167,8 +168,13 @@ Unlike existing tools that only handle event creation and registration, EventSyn
   "class-variance-authority": "0.7.1",
   "tailwind-merge": "3.4.0"
 }
+```
 
+---
 
+## 🚀 Quick Start
+
+```bash
 # Clone the repository
 git clone https://github.com/1Manojkumar1/EventSync.git
 cd EventSync
@@ -184,8 +190,13 @@ npm install
 
 # Run development server
 npm run dev
+```
 
+---
 
+## 📁 Project Structure
+
+```
 .
 ├── app/
 │   ├── (dashboard)/
@@ -233,8 +244,13 @@ npm run dev
 ├── firestore.rules                # Security rules
 ├── next.config.ts
 └── package.json
+```
 
+---
 
+## 📋 Event Schema
+
+```typescript
 {
   id: string;
   title: string;
@@ -249,3 +265,5 @@ npm run dev
   description: string;
   // ... extended fields for ESIE
 }
+```
+```
