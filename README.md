@@ -168,6 +168,7 @@ Unlike existing tools that only handle event creation and registration, EventSyn
   "tailwind-merge": "3.4.0"
 }
 
+
 # Clone the repository
 git clone https://github.com/1Manojkumar1/EventSync.git
 cd EventSync
@@ -183,6 +184,7 @@ npm install
 
 # Run development server
 npm run dev
+
 
 .
 ├── app/
@@ -232,6 +234,7 @@ npm run dev
 ├── next.config.ts
 └── package.json
 
+
 {
   id: string;
   title: string;
@@ -246,4 +249,3 @@ npm run dev
   description: string;
   // ... extended fields for ESIE
 }
-
