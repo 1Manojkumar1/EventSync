@@ -1,4 +1,4 @@
-```markdown
+
 # EventSync
 
 ![Next.js](https://img.shields.io/badge/-Next.js-000000?logo=next.js&logoColor=white)
